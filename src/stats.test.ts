@@ -1,6 +1,5 @@
 import {sum, average} from "./stats"
 import * as statsAsync from "./stats"
-import {describe, expect, it, test} from "./testLib"
 
 describe("stats", () => {
 
