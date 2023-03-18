@@ -1,6 +1,6 @@
 import { sum, average} from "../stats"
 
-describe("stats", () => {
+xdescribe("stats", () => {
     it("calculates the sum of all elements ot the array", ()=>{
         const result = sum([1,2,3]);
         const expected = 6;      

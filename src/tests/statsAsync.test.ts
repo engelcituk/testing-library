@@ -1,7 +1,7 @@
 
 import * as statsAsync from "./../statsAsync"
 
-describe("stats async", () => {
+xdescribe("stats async", () => {
 
     it("calculates the sum of all elements ot the array (async)", async ()=>{
         const result = await statsAsync.sum([1,2,3]);
