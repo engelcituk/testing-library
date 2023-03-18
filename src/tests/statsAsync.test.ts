@@ -1,6 +1,5 @@
 
-import * as statsAsync from "./../stats"
-
+import * as statsAsync from "./../statsAsync"
 
 describe("stats async", () => {
 
