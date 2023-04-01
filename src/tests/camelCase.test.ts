@@ -15,5 +15,14 @@ describe('Camel case converter', ()=> {
         expect( toCamelCase('Foo Bar') ).toBe('FooBar')
     })
 
+    it('joins the capitalized words that are separated by hyphens', () => {
+        expect(toCamelCase('Foo-Bar_Foo')).toBe('FooBarFoo');
+    });
+
+    it('converts the first character of one word to uppercase', () => {
+        expect(toCamelCase('foo')).toBe('Foo');
+    });
+
+    
 
 })

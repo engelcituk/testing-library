@@ -1,3 +1,4 @@
 export function toCamelCase(text:string) {
-    return text.split(' ').join('')
+    const words = text.split(/[ _-]/);
+    return words.map(word => word.charAt(0).toUpperCase() + word.substring(1)).join('');
 }
